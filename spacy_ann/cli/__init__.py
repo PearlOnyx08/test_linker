@@ -1,9 +1,8 @@
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
-
 def main():
     import sys
-
+    #serv and example data removed from imports
     import typer
     from spacy_ann.cli.create_index import create_index
     from wasabi import msg
