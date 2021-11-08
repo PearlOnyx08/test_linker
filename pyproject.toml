@@ -27,12 +27,6 @@ classifiers = [
     "Programming Language :: Python :: 3.8",
     "License :: OSI Approved :: MIT License"
 ]    
-    
-[tool.flit.metadata]
-
-author = "test"
-author-email = "YongSuTK@gmail.com"
-home-page = ""
 
 [tool.flit.scripts]
 spacy_ann = "spacy_ann.cli:main"
