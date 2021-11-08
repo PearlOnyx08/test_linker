@@ -6,8 +6,8 @@ build-backend = "flit_core.buildapi"
 dist-name = "spacy-ann-linker"
 module = "spacy_ann"
 author = "Kabir Khan"
-author-email = "kakh@microsoft.com"
-home-page = "https://github.com/microsoft/spacy-ann-linker"
+author-email = "YongSuTK@gmail.com"
+home-page = ""
 classifiers = [
     "Intended Audience :: Information Technology",
     "Intended Audience :: System Administrators",
