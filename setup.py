@@ -3,7 +3,6 @@ from setuptools import setup
 setup(
     name='al3',
     version='0.1',
-    py_modules=['yourscript'],
     entry_points='''
         [console_scripts]
         spacy_ann=spacy_ann.cli:main
