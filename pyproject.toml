@@ -8,17 +8,6 @@ author = "test"
 author-email = "YongSuTK@gmail.com"
 home-page = ""
 
-[tool.flit.metadata.urls]
-Documentation = ""
-
-[tool.flit.metadata.requires-extra]
-api = [
-    "fastapi",
-    "uvicorn",
-    "gunicorn",
-    "python-dotenv"
-]
-
 [tool.flit.scripts]
 spacy_ann = "spacy_ann.cli:main"
 
