@@ -6,7 +6,7 @@ setup(
     
     entry_points='''
         [console_scripts]
-        spacy_ann=spacy_ann.cli
+        spacy_ann=spacy_ann.cli:__init__.py
 
         [spacy_factories]
         ann_linker=spacy_ann.ann_linker:AnnLinker
