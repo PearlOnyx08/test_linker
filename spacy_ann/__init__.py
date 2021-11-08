@@ -7,4 +7,3 @@
 __version__ = "0.4.0"
 
 from .ann_linker import AnnLinker
-from .remote_ann_linker import RemoteAnnLinker
