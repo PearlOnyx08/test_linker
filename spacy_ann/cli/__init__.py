@@ -7,13 +7,11 @@ def main():
 
     import typer
     from spacy_ann.cli.create_index import create_index
-    from spacy_ann.cli.example_data import example_data
     from spacy_ann.cli.serve import serve
     from wasabi import msg
 
     commands = {
         "create_index": create_index,
-        "example_data": example_data,
         "serve": serve,
     }
     if len(sys.argv) == 1:
