@@ -3,9 +3,10 @@ from setuptools import setup
 setup(
     name='al3',
     version='0.1',
+    
     entry_points='''
         [console_scripts]
-        spacy_ann=spacy_ann.cli:main
+        spacy_ann=spacy_ann.cli
 
         [spacy_factories]
         ann_linker=spacy_ann.ann_linker:AnnLinker
