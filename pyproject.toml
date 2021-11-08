@@ -3,7 +3,7 @@ requires = ["flit_core >=2,<3"]
 build-backend = "flit_core.buildapi"
 
 [tool.flit.metadata]
-dist-name = "spacy-ann-linker"
+dist-name = "spacy-ann-linker-v3"
 module = "spacy_ann"
 author = "Spenser Stone"
 author-email = "YongSuTK@gmail.com"
